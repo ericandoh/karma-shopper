@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D916A4BA195095C800DEBE3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D916A4B9195095C800DEBE3B /* Foundation.framework */; };
+		D916A4BC195095C800DEBE3B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D916A4BB195095C800DEBE3B /* CoreGraphics.framework */; };
+		D916A4BE195095C800DEBE3B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D916A4BD195095C800DEBE3B /* UIKit.framework */; };
+		D916A4C4195095C800DEBE3B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D916A4C2195095C800DEBE3B /* InfoPlist.strings */; };
+		D916A4C6195095C800DEBE3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D916A4C5195095C800DEBE3B /* main.m */; };
+		D916A4CA195095C800DEBE3B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D916A4C9195095C800DEBE3B /* AppDelegate.m */; };
+		D916A4CD195095C800DEBE3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D916A4CB195095C800DEBE3B /* Main.storyboard */; };
+		D916A4D0195095C800DEBE3B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D916A4CF195095C800DEBE3B /* ViewController.m */; };
+		D916A4D2195095C800DEBE3B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D916A4D1195095C800DEBE3B /* Images.xcassets */; };
+		D916A4D9195095C800DEBE3B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D916A4D8195095C800DEBE3B /* XCTest.framework */; };
+		D916A4DA195095C800DEBE3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D916A4B9195095C800DEBE3B /* Foundation.framework */; };
+		D916A4DB195095C800DEBE3B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D916A4BD195095C800DEBE3B /* UIKit.framework */; };
+		D916A4E3195095C800DEBE3B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D916A4E1195095C800DEBE3B /* InfoPlist.strings */; };
+		D916A4E5195095C800DEBE3B /* KarmaShopperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D916A4E4195095C800DEBE3B /* KarmaShopperTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D916A4DC195095C800DEBE3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D916A4AE195095C800DEBE3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D916A4B5195095C800DEBE3B;
+			remoteInfo = KarmaShopper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D916A4B6195095C800DEBE3B /* KarmaShopper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KarmaShopper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D916A4B9195095C800DEBE3B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D916A4BB195095C800DEBE3B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D916A4BD195095C800DEBE3B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D916A4C1195095C800DEBE3B /* KarmaShopper-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KarmaShopper-Info.plist"; sourceTree = "<group>"; };
+		D916A4C3195095C800DEBE3B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D916A4C5195095C800DEBE3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D916A4C7195095C800DEBE3B /* KarmaShopper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KarmaShopper-Prefix.pch"; sourceTree = "<group>"; };
+		D916A4C8195095C800DEBE3B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D916A4C9195095C800DEBE3B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D916A4CC195095C800DEBE3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D916A4CE195095C800DEBE3B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D916A4CF195095C800DEBE3B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D916A4D1195095C800DEBE3B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D916A4D7195095C800DEBE3B /* KarmaShopperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KarmaShopperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D916A4D8195095C800DEBE3B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D916A4E0195095C800DEBE3B /* KarmaShopperTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KarmaShopperTests-Info.plist"; sourceTree = "<group>"; };
+		D916A4E2195095C800DEBE3B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D916A4E4195095C800DEBE3B /* KarmaShopperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KarmaShopperTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D916A4B3195095C800DEBE3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D916A4BC195095C800DEBE3B /* CoreGraphics.framework in Frameworks */,
+				D916A4BE195095C800DEBE3B /* UIKit.framework in Frameworks */,
+				D916A4BA195095C800DEBE3B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D916A4D4195095C800DEBE3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D916A4D9195095C800DEBE3B /* XCTest.framework in Frameworks */,
+				D916A4DB195095C800DEBE3B /* UIKit.framework in Frameworks */,
+				D916A4DA195095C800DEBE3B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D916A4AD195095C800DEBE3B = {
+			isa = PBXGroup;
+			children = (
+				D916A4BF195095C800DEBE3B /* KarmaShopper */,
+				D916A4DE195095C800DEBE3B /* KarmaShopperTests */,
+				D916A4B8195095C800DEBE3B /* Frameworks */,
+				D916A4B7195095C800DEBE3B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D916A4B7195095C800DEBE3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D916A4B6195095C800DEBE3B /* KarmaShopper.app */,
+				D916A4D7195095C800DEBE3B /* KarmaShopperTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D916A4B8195095C800DEBE3B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D916A4B9195095C800DEBE3B /* Foundation.framework */,
+				D916A4BB195095C800DEBE3B /* CoreGraphics.framework */,
+				D916A4BD195095C800DEBE3B /* UIKit.framework */,
+				D916A4D8195095C800DEBE3B /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D916A4BF195095C800DEBE3B /* KarmaShopper */ = {
+			isa = PBXGroup;
+			children = (
+				D916A4C8195095C800DEBE3B /* AppDelegate.h */,
+				D916A4C9195095C800DEBE3B /* AppDelegate.m */,
+				D916A4CB195095C800DEBE3B /* Main.storyboard */,
+				D916A4CE195095C800DEBE3B /* ViewController.h */,
+				D916A4CF195095C800DEBE3B /* ViewController.m */,
+				D916A4D1195095C800DEBE3B /* Images.xcassets */,
+				D916A4C0195095C800DEBE3B /* Supporting Files */,
+			);
+			path = KarmaShopper;
+			sourceTree = "<group>";
+		};
+		D916A4C0195095C800DEBE3B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D916A4C1195095C800DEBE3B /* KarmaShopper-Info.plist */,
+				D916A4C2195095C800DEBE3B /* InfoPlist.strings */,
+				D916A4C5195095C800DEBE3B /* main.m */,
+				D916A4C7195095C800DEBE3B /* KarmaShopper-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D916A4DE195095C800DEBE3B /* KarmaShopperTests */ = {
+			isa = PBXGroup;
+			children = (
+				D916A4E4195095C800DEBE3B /* KarmaShopperTests.m */,
+				D916A4DF195095C800DEBE3B /* Supporting Files */,
+			);
+			path = KarmaShopperTests;
+			sourceTree = "<group>";
+		};
+		D916A4DF195095C800DEBE3B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D916A4E0195095C800DEBE3B /* KarmaShopperTests-Info.plist */,
+				D916A4E1195095C800DEBE3B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D916A4B5195095C800DEBE3B /* KarmaShopper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D916A4E8195095C800DEBE3B /* Build configuration list for PBXNativeTarget "KarmaShopper" */;
+			buildPhases = (
+				D916A4B2195095C800DEBE3B /* Sources */,
+				D916A4B3195095C800DEBE3B /* Frameworks */,
+				D916A4B4195095C800DEBE3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KarmaShopper;
+			productName = KarmaShopper;
+			productReference = D916A4B6195095C800DEBE3B /* KarmaShopper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D916A4D6195095C800DEBE3B /* KarmaShopperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D916A4EB195095C800DEBE3B /* Build configuration list for PBXNativeTarget "KarmaShopperTests" */;
+			buildPhases = (
+				D916A4D3195095C800DEBE3B /* Sources */,
+				D916A4D4195095C800DEBE3B /* Frameworks */,
+				D916A4D5195095C800DEBE3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D916A4DD195095C800DEBE3B /* PBXTargetDependency */,
+			);
+			name = KarmaShopperTests;
+			productName = KarmaShopperTests;
+			productReference = D916A4D7195095C800DEBE3B /* KarmaShopperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D916A4AE195095C800DEBE3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Sazze;
+				TargetAttributes = {
+					D916A4D6195095C800DEBE3B = {
+						TestTargetID = D916A4B5195095C800DEBE3B;
+					};
+				};
+			};
+			buildConfigurationList = D916A4B1195095C800DEBE3B /* Build configuration list for PBXProject "KarmaShopper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D916A4AD195095C800DEBE3B;
+			productRefGroup = D916A4B7195095C800DEBE3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D916A4B5195095C800DEBE3B /* KarmaShopper */,
+				D916A4D6195095C800DEBE3B /* KarmaShopperTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D916A4B4195095C800DEBE3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D916A4D2195095C800DEBE3B /* Images.xcassets in Resources */,
+				D916A4C4195095C800DEBE3B /* InfoPlist.strings in Resources */,
+				D916A4CD195095C800DEBE3B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D916A4D5195095C800DEBE3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D916A4E3195095C800DEBE3B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D916A4B2195095C800DEBE3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D916A4D0195095C800DEBE3B /* ViewController.m in Sources */,
+				D916A4CA195095C800DEBE3B /* AppDelegate.m in Sources */,
+				D916A4C6195095C800DEBE3B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D916A4D3195095C800DEBE3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D916A4E5195095C800DEBE3B /* KarmaShopperTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D916A4DD195095C800DEBE3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D916A4B5195095C800DEBE3B /* KarmaShopper */;
+			targetProxy = D916A4DC195095C800DEBE3B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D916A4C2195095C800DEBE3B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D916A4C3195095C800DEBE3B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D916A4CB195095C800DEBE3B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D916A4CC195095C800DEBE3B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D916A4E1195095C800DEBE3B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D916A4E2195095C800DEBE3B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D916A4E6195095C800DEBE3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D916A4E7195095C800DEBE3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D916A4E9195095C800DEBE3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KarmaShopper/KarmaShopper-Prefix.pch";
+				INFOPLIST_FILE = "KarmaShopper/KarmaShopper-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D916A4EA195095C800DEBE3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KarmaShopper/KarmaShopper-Prefix.pch";
+				INFOPLIST_FILE = "KarmaShopper/KarmaShopper-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D916A4EC195095C800DEBE3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KarmaShopper.app/KarmaShopper";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KarmaShopper/KarmaShopper-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "KarmaShopperTests/KarmaShopperTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D916A4ED195095C800DEBE3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KarmaShopper.app/KarmaShopper";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KarmaShopper/KarmaShopper-Prefix.pch";
+				INFOPLIST_FILE = "KarmaShopperTests/KarmaShopperTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D916A4B1195095C800DEBE3B /* Build configuration list for PBXProject "KarmaShopper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D916A4E6195095C800DEBE3B /* Debug */,
+				D916A4E7195095C800DEBE3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D916A4E8195095C800DEBE3B /* Build configuration list for PBXNativeTarget "KarmaShopper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D916A4E9195095C800DEBE3B /* Debug */,
+				D916A4EA195095C800DEBE3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D916A4EB195095C800DEBE3B /* Build configuration list for PBXNativeTarget "KarmaShopperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D916A4EC195095C800DEBE3B /* Debug */,
+				D916A4ED195095C800DEBE3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D916A4AE195095C800DEBE3B /* Project object */;
+}
